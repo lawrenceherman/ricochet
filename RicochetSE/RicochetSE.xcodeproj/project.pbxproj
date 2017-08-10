@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE73D9431F37B330006EBC8B /* Arena1.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE73D9421F37B330006EBC8B /* Arena1.sks */; };
 		FE8767E11F37880C00C79CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8767E01F37880C00C79CDA /* AppDelegate.swift */; };
 		FE8767E31F37880C00C79CDA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE8767E21F37880C00C79CDA /* GameScene.sks */; };
-		FE8767E51F37880C00C79CDA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE8767E41F37880C00C79CDA /* Actions.sks */; };
 		FE8767E71F37880C00C79CDA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8767E61F37880C00C79CDA /* GameScene.swift */; };
 		FE8767E91F37880C00C79CDA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8767E81F37880C00C79CDA /* GameViewController.swift */; };
 		FE8767EC1F37880C00C79CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8767EA1F37880C00C79CDA /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE73D9421F37B330006EBC8B /* Arena1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Arena1.sks; sourceTree = "<group>"; };
 		FE8767DD1F37880C00C79CDA /* RicochetSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicochetSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8767E01F37880C00C79CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE8767E21F37880C00C79CDA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FE8767E41F37880C00C79CDA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FE8767E61F37880C00C79CDA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FE8767E81F37880C00C79CDA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FE8767EB1F37880C00C79CDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,13 +62,13 @@
 			children = (
 				FE8767E01F37880C00C79CDA /* AppDelegate.swift */,
 				FE8767E21F37880C00C79CDA /* GameScene.sks */,
-				FE8767E41F37880C00C79CDA /* Actions.sks */,
 				FE8767E61F37880C00C79CDA /* GameScene.swift */,
 				FE8767E81F37880C00C79CDA /* GameViewController.swift */,
 				FE8767EA1F37880C00C79CDA /* Main.storyboard */,
 				FE8767ED1F37880C00C79CDA /* Assets.xcassets */,
 				FE8767EF1F37880C00C79CDA /* LaunchScreen.storyboard */,
 				FE8767F21F37880C00C79CDA /* Info.plist */,
+				FE73D9421F37B330006EBC8B /* Arena1.sks */,
 			);
 			path = RicochetSE;
 			sourceTree = "<group>";
@@ -132,10 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8767EC1F37880C00C79CDA /* Main.storyboard in Resources */,
+				FE73D9431F37B330006EBC8B /* Arena1.sks in Resources */,
 				FE8767E31F37880C00C79CDA /* GameScene.sks in Resources */,
 				FE8767EE1F37880C00C79CDA /* Assets.xcassets in Resources */,
 				FE8767F11F37880C00C79CDA /* LaunchScreen.storyboard in Resources */,
-				FE8767E51F37880C00C79CDA /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
