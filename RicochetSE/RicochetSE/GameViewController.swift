@@ -12,6 +12,8 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    var ourScene: GKScene!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,10 +22,16 @@ class GameViewController: UIViewController {
 
         
         
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            ourScene = GKScene(fileNamed: "Arena1iphone6splus.sks")
+        }
         
-        if let scene = GKScene(fileNamed: "Arena1.sks") {
-            
-    
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            ourScene = GKScene(fileNamed: "Arena1ipad129.sks")
+        }
+        
+        
+        if let scene = ourScene {
             
             // Get the SKScene from the loaded GKScene
             if let sceneNode = scene.rootNode as! GameScene? {
@@ -33,7 +41,7 @@ class GameViewController: UIViewController {
                 sceneNode.graphs = scene.graphs
                 
                 // Set the scale mode to scale to fit the window
-                sceneNode.scaleMode = .aspectFill
+                sceneNode.scaleMode = .fill
                 
                 // Present the scene
                 if let view = self.view as! SKView? {

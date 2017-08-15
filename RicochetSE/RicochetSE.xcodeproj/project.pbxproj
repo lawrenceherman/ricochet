@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE73D9431F37B330006EBC8B /* Arena1.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE73D9421F37B330006EBC8B /* Arena1.sks */; };
+		FE1EAC951F426B42009A86DD /* Arena1iphone6splus.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE1EAC941F426B42009A86DD /* Arena1iphone6splus.sks */; };
+		FE73D9431F37B330006EBC8B /* Arena1ipad129.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE73D9421F37B330006EBC8B /* Arena1ipad129.sks */; };
 		FE8767E11F37880C00C79CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8767E01F37880C00C79CDA /* AppDelegate.swift */; };
 		FE8767E31F37880C00C79CDA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE8767E21F37880C00C79CDA /* GameScene.sks */; };
 		FE8767E71F37880C00C79CDA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8767E61F37880C00C79CDA /* GameScene.swift */; };
@@ -18,7 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE73D9421F37B330006EBC8B /* Arena1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Arena1.sks; sourceTree = "<group>"; };
+		FE1EAC941F426B42009A86DD /* Arena1iphone6splus.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Arena1iphone6splus.sks; sourceTree = "<group>"; };
+		FE73D9421F37B330006EBC8B /* Arena1ipad129.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Arena1ipad129.sks; sourceTree = "<group>"; };
 		FE8767DD1F37880C00C79CDA /* RicochetSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RicochetSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8767E01F37880C00C79CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE8767E21F37880C00C79CDA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -68,7 +70,8 @@
 				FE8767ED1F37880C00C79CDA /* Assets.xcassets */,
 				FE8767EF1F37880C00C79CDA /* LaunchScreen.storyboard */,
 				FE8767F21F37880C00C79CDA /* Info.plist */,
-				FE73D9421F37B330006EBC8B /* Arena1.sks */,
+				FE73D9421F37B330006EBC8B /* Arena1ipad129.sks */,
+				FE1EAC941F426B42009A86DD /* Arena1iphone6splus.sks */,
 			);
 			path = RicochetSE;
 			sourceTree = "<group>";
@@ -132,10 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8767EC1F37880C00C79CDA /* Main.storyboard in Resources */,
-				FE73D9431F37B330006EBC8B /* Arena1.sks in Resources */,
+				FE73D9431F37B330006EBC8B /* Arena1ipad129.sks in Resources */,
 				FE8767E31F37880C00C79CDA /* GameScene.sks in Resources */,
 				FE8767EE1F37880C00C79CDA /* Assets.xcassets in Resources */,
 				FE8767F11F37880C00C79CDA /* LaunchScreen.storyboard in Resources */,
+				FE1EAC951F426B42009A86DD /* Arena1iphone6splus.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -273,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
